@@ -1,3 +1,5 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css");
+
 li span{
     border: 1px solid #0bceaf;
     padding: 4px 10px;
@@ -6,4 +8,20 @@ li span{
 
 li{
     list-style-type: none;
+}
+
+
+.btn-custom{
+    padding: 1rem 4rem;
+    border: 1px solid teal;
+    text-decoration: none;
+    color: black;
+}
+
+
+.img-border img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 20px solid rgba(0,0,0,0.07);
 }
