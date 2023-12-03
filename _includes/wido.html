@@ -1,9 +1,9 @@
 <div id="hero" class="container text-center">
     <div class="row align-items-center">
-        <h1>What I do</h1>
+        <h1>{{ "What I do" | upcase }}</h1>
         <div class="col-md-6">
-            <div class="">
-                <h4 class="font-monospace fw-bold">Full Stack Developement</h4>
+            <div class="px-3">
+                <h4 class="font-monospace fw-bold"> {{"Full Stack Developement"| upcase}} </h4>
                 <p class="font-monospace"> My goal as software engineer is to always make sure the frontend and backend
                     of software applicaitons are well built using software engineering practices.
                 </p>
@@ -17,17 +17,19 @@
         </div>
 
         <div class="col md-6">
-            <div class="">
-                <h4 class="font-monospace fw-bold">Consulting</h4>
-            </div>
-            <div class="text-start px-3">
-                <p class="font-monospace">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae qui atque accusamus modi, incidunt alias nesciunt. Atque nemo doloremque culpa eveniet, corporis labore quae recusandae quis saepe delectus dolor repellendus.
-                </p>
-                
-                <p class="font-monospace">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita asperiores nisi numquam accusantium reiciendis, eius consequatur eum odit dolorum aut aliquam, rem esse perferendis natus vel porro dicta fugiat sequi.
-                </p>
+            <div class="px-3">
+                <div class="">
+                    <h4 class="font-monospace fw-bold"> {{ "Consulting" | upcase}} </h4>
+                </div>
+                <div class="text-start px-3">
+                    <p class="font-monospace">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae qui atque accusamus modi, incidunt alias nesciunt. Atque nemo doloremque culpa eveniet, corporis labore quae recusandae quis saepe delectus dolor repellendus.
+                    </p>
+                    
+                    <p class="font-monospace">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita asperiores nisi numquam accusantium reiciendis, eius consequatur eum odit dolorum aut aliquam, rem esse perferendis natus vel porro dicta fugiat sequi.
+                    </p>
+                </div>
             </div>
         </div>
     </div>
