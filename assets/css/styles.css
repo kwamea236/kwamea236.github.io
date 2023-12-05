@@ -70,6 +70,10 @@ li{
     box-shadow: 6px 6px 0 black;
 }
 
+.border-cust{
+    border-bottom: 5px solid #ccff50;
+}
+
 .img-border img{
     width: 300px;
     height: 300px;
