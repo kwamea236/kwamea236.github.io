@@ -59,6 +59,16 @@ li{
     color: black;
 }
 
+.bg-progress{
+    background-color: #ccff50; 
+    border: 1px solid black;
+}
+
+.bg-progress-sh{
+    background-color: #ccff50; 
+    border: 1px solid black;
+    box-shadow: 6px 6px 0 black;
+}
 
 .img-border img{
     width: 300px;
