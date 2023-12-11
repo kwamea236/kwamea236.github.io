@@ -18,7 +18,7 @@ html,body{
 }
 
 li span{
-    border: 1px solid blue;
+    border: 1px solid #5FBDFF;
     padding: 4px 10px;
     border-radius: 4px;
 }
@@ -36,7 +36,7 @@ li{
     line-height: 1;
     color: #0f0f0f;
     transition: all .2s ease-in-out;
-    background-color: #ccff50;
+    background-color: #5FBDFF;
     border: 1px solid #0f0f0f;
     box-shadow: 6px 6px 0 #0f0f0f;
     border-radius: 4px;
@@ -60,25 +60,25 @@ li{
 }
 
 .bg-progress{
-    background-color: #ccff50; 
+    background-color: #5FBDFF; 
     border: 1px solid black;
 }
 
 .bg-progress-sh{
-    background-color: #ccff50; 
+    background-color: #5FBDFF; 
     border: 1px solid black;
     box-shadow: 6px 6px 0 black;
 }
 
 .border-cust{
-    border-bottom: 5px solid #ccff50;
+    border-bottom: 5px solid #5FBDFF;
 }
 
 .img-border img{
     width: 300px;
     height: 300px;
     border-radius: 50%;
-    border: 20px solid rgba(0,0,0,0.07);
+    border: 20px solid rgba(0, 0, 0, 0.1);
 }
 
 .a-custom{
