@@ -5,16 +5,17 @@ layout: default
 <div>
     {%- include header.html -%}
 </div>
-
-<div class="p-5 md-mx">
-    <div class="mb-5 container text-center">
-        <h2> {{ page.date | date_to_string }}  {{ page.author }} </h2>
-        <h2> {{ page.title }} </h2>
-    </div>
-    
-    <article>
-        <div class="container lh-2 fs-5 fw-light">
-            {{ content }}
+<section class="bg-dark">
+    <div class="p-5 md-mx text-white">
+        <div class="mb-5 container text-center">
+            <h2> {{ page.date | date_to_string }}  {{ page.author }} </h2>
+            <h2> {{ page.title }} </h2>
         </div>
-    </article>
-</div>
+        
+        <article>
+            <div class="container lh-2 fs-5 fw-light">
+                {{ content }}
+            </div>
+        </article>
+    </div>
+</section>

@@ -6,30 +6,21 @@ title : blog
     {%- include header.html -%}
 </div>
 
-<!-- <div class="row">
-    <div class="col">
-
+<section class="bg-dark py-5">
+    <div class="text-center container">
+        <ul class="">
+            {%- for post in site.posts -%}
+                <li class="p-3 shadow neg-mx md-mx mb-5 my-border">
+                    <a class="text-decoration-none text-white" href="{{ post.url }}">
+                        <p> {{ post.date | date: ' %b %d, %Y' }}</p>
+                        <h4> {{ post.title }} </h4>
+                        <p> {{ post.excerpt }}</p>
+                        <button class="btn">Read more</button>
+                    </a>
+                </li>
+            {%- endfor -%}
+    
+            
+        </ul>
     </div>
-    <div class="col">
-
-    </div>
-    <div class="col">
-
-    </div>
-</div> -->
-<div class="text-center container">
-    <ul>
-        {%- for post in site.posts -%}
-            <li class="p-3 shadow neg-mx md-mx my-5 my-border">
-                <a class="text-decoration-none text-black" href="{{ post.url }}">
-                    <p> {{ post.date | date: ' %b %d, %Y' }}</p>
-                    <h4> {{ post.title }} </h4>
-                    <p> {{ post.excerpt }}</p>
-                    <button class="btn">Read more</button>
-                </a>
-            </li>
-        {%- endfor -%}
-
-        
-    </ul>
-</div>
+</section>
