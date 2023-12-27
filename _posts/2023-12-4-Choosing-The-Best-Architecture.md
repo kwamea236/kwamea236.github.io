@@ -3,7 +3,7 @@ excerpt_separator: <!--more-->
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut scelerisque pretium velit, ac pulvinar 
-nunc aliquet ut. Phasellus sollicitudin non nibh ut commodo. Ut eget lorem accumsan, porta magna et
+nunc aliquet ut. PHasellus sollicitudin non nibh ut commodo. Ut eget lorem accumsan, porta magna et
 viverra diam. Aliquam finibus tortor diam, eget condimentum eros congue eu. Fusce id augue ligula. 
 Aliquam vehicula commodo blandit. Aliquam leo nisl, efficitur mollis posuere nec, aliquet vel sapien
 Vivamus a lobortis ligula. Curabitur luctus in est ut congue. Integer ultricies velit rutrum, aliquet dui
