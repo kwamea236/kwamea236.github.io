@@ -6,10 +6,21 @@ title : blog
     {%- include header.html -%}
 </div>
 
-<div class="text-center">
+<!-- <div class="row">
+    <div class="col">
+
+    </div>
+    <div class="col">
+
+    </div>
+    <div class="col">
+
+    </div>
+</div> -->
+<div class="text-center container">
     <ul>
         {%- for post in site.posts -%}
-            <li class="font-monospace p-5 shadow mx-5 mx-md-5 my-5 my-border">
+            <li class="font-monospace p-2 shadow neg-mx md-mx my-5 my-border">
                 <a class="text-decoration-none text-black" href="{{ post.url }}">
                     <p> {{ post.date | date: ' %b %d, %Y' }}</p>
                     <h4> {{ post.title }} </h4>
