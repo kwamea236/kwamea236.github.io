@@ -107,3 +107,6 @@ li{
     100% {opacity: 1;}
 }
 
+.my-border{
+    border: 1px solid black;
+}

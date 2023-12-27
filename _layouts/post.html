@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<div class="p-5  font-monospace">
+    <div class="mb-5">
+        <h2> {{ page.date | date_to_string }}  {{ page.author }} </h2>
+        <h2> {{ page.title }} </h2>
+    </div>
+    
+    <div>
+        {{ content }}
+    </div>
+</div>

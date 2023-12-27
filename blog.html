@@ -1,0 +1,24 @@
+---
+layout: default
+title : blog
+---
+<div>
+    {%- include header.html -%}
+</div>
+
+<div class="text-center">
+    <ul>
+        {%- for post in site.posts -%}
+            <li class="font-monospace p-5 shadow mx-5 mx-md-5 my-5 my-border">
+                <a class="text-decoration-none text-black" href="{{ post.url }}">
+                    <p> {{ post.date | date: ' %b %d, %Y' }}</p>
+                    <h4> {{ post.title }} </h4>
+                    <p> {{ post.excerpt }}</p>
+                    <button class="btn">Read more</button>
+                </a>
+            </li>
+        {%- endfor -%}
+
+        
+    </ul>
+</div>
