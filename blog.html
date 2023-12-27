@@ -7,15 +7,14 @@ title : blog
 </div>
 
 <section class="bg-dark py-5">
-    <div class="text-center container">
+    <div class="container">
         <ul class="">
             {%- for post in site.posts -%}
-                <li class="p-3 shadow neg-mx md-mx mb-5 my-border">
-                    <a class="text-decoration-none text-white" href="{{ post.url }}">
-                        <p> {{ post.date | date: ' %b %d, %Y' }}</p>
-                        <h4> {{ post.title }} </h4>
-                        <p> {{ post.excerpt }}</p>
-                        <button class="btn">Read more</button>
+                <li class="p-4 shadow neg-mx md-mx mb-5 my-border">
+                    <a class="text-decoration-none text-white fs-4" href="{{ post.url }}">
+                        <p class="text-center fw-bold"> {{ post.date | date: ' %b %d, %Y' }}</p>
+                        <h3 class="text-center fw-bolder"> {{ post.title }} </h3>
+                        <p> {{ post.excerpt}} </p>
                     </a>
                 </li>
             {%- endfor -%}
