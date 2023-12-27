@@ -8,7 +8,7 @@ viverra diam. Aliquam finibus tortor diam, eget condimentum eros congue eu. Fusc
 Aliquam vehicula commodo blandit. Aliquam leo nisl, efficitur mollis posuere nec, aliquet vel sapien
 Vivamus a lobortis ligula. Curabitur luctus in est ut congue. Integer ultricies velit rutrum, aliquet dui
 <!--more-->
-sit amet, porta massa. Vestibulum nn dictum massa. Duis mauris lacus, posuere non placerat eget,
+sit amet, porta massa. Vestibulum non dictum massa. Duis mauris lacus, posuere non placerat eget,
 facilisis feugiat erat. Nunc vitae mauris cursus purus faucibus lobortis in quis ex. Sed dapibus convallis
 vulputate. Nulla eu dui eros. Phasellus rutrum dui ut justo lobortis, sit amet auctor neque tempor.
 
