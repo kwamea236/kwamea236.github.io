@@ -10,7 +10,6 @@
 
 html,body{
     overflow-x: hidden !important;
-    font-size: 14px;
     line-height: 24px;
     font-weight: 500;
     text-align: left;
@@ -109,8 +108,9 @@ li{
     100% {opacity: 1;}
 }
 
-.my-border{
-    border: 1px solid black;
+.c-border{
+    border: 1px solid rgb(206, 206, 206);
+    border-radius: 8px;
 }
 
 .neg-mx{
@@ -122,4 +122,17 @@ li{
         margin-left: 20%;
         margin-right: 20%;
     }
+}
+
+.avatar{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    position: relative;
+    z-index: 1;
+    margin-top: 2rem;
+}
+
+.fs-12{
+    font-size: 16px;
 }

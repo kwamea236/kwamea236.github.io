@@ -6,15 +6,17 @@ title : blog
     {%- include header.html -%}
 </div>
 
-<section class="bg-dark py-5">
+<section class="py-5">
     <div class="container">
         <ul class="">
             {%- for post in site.posts -%}
-                <li class="p-4 shadow neg-mx md-mx mb-5 my-border">
-                    <a class="text-decoration-none text-white fs-4" href="{{ post.url }}">
-                        <p class="text-center fw-bold"> {{ post.date | date: ' %b %d, %Y' }}</p>
-                        <h3 class="text-center fw-bolder"> {{ post.title }} </h3>
-                        <p> {{ post.excerpt}} </p>
+                <li class="p-5 shadow neg-mx md-mx mb-5 c-border">
+                    <a class="text-decoration-none text-dark fs-4" href="{{ post.url }}">
+                        <div class="fs-12">
+                            <p class="text-center fw-bold"> {{ post.date | date: ' %b %d, %Y' }}</p>
+                            <h3 class="text-center fw-bolder"> {{ post.title }} </h3>
+                            <p> {{ post.excerpt}} </p>
+                        </div>
                     </a>
                 </li>
             {%- endfor -%}

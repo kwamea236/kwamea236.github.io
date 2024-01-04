@@ -5,15 +5,23 @@ layout: default
 <div>
     {%- include header.html -%}
 </div>
-<section class="bg-dark">
-    <div class="p-5 md-mx text-white">
-        <div class="mb-5 container text-center">
-            <h2> {{ page.date | date_to_string }}  {{ page.author }} </h2>
+
+<section>
+    <div>
+        <div class="text-center">
+            <img src="/assets/img/img-1.jpg" alt="image of a person" class="avatar">
+            <p> {{"raymond ato ghanney" | upcase}} </p>
+        </div>
+    </div>
+
+    <div class="md-mx text-dark">
+        <div class="mb-3 container text-center">
+            <p class=""> {{ page.date | date_to_string }}  {{ page.author }} </p>
             <h2 class="fw-bolder"> {{ page.title }} </h2>
         </div>
         
         <article>
-            <div class="container lh-2 fs-5 fw-light">
+            <div class="container fs-12 fw-light">
                 {{ content }}
             </div>
         </article>
