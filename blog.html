@@ -10,7 +10,7 @@ title : blog
     <div class="container">
         <ul class="">
             {%- for post in site.posts -%}
-                <li class="p-5 shadow neg-mx md-mx mb-5 c-border">
+                <li class="p-md-5 p-3 shadow neg-mx md-mx mb-5 c-border">
                     <a class="text-decoration-none text-dark fs-4" href="{{ post.url }}">
                         <div class="fs-12">
                             <p class="text-center fw-bold"> {{ post.date | date: ' %b %d, %Y' }}</p>
